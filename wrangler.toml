@@ -1,0 +1,9 @@
+name = "nexa-push-worker"
+main = "index.js"
+compatibility_date = "2024-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Uncomment to run a recurring schedule server-side (see the commented "scheduled"
+# handler in index.js) so notifications can fire without anyone opening Nexa:
+# [triggers]
+# crons = ["0 9 * * MON"]
